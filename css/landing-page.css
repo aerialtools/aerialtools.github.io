@@ -8340,8 +8340,8 @@ button.bg-dark:focus {
 }
 
 .shadow {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  -webkit-box-shadow: 0px 0px 2px 0px #888888 !important;
+  box-shadow: 0px 0px 2px 0px #888888 !important;
 }
 
 .shadow-lg {
@@ -10580,20 +10580,11 @@ a:hover {
 }
 
 #mainNav {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 0px 2px 0px #888888;
+  box-shadow: 0px 0px 2px 0px #888888;
   background-color: #fff;
   -webkit-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
-}
-
-#mainNav .navbar {
-  margin-bottom: 0;
-}
-
-#mainNav .navbar-brand {
-  font-weight: 700;
-  color: #212529;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -10633,8 +10624,8 @@ a:hover {
     padding-right: 0;
   }
   #mainNav.navbar-scrolled {
-    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0px 0px 2px 0px #888888;
+    box-shadow: 0px 0px 2px 0px #888888;
     background-color: #fff;
   }
   #mainNav.navbar-scrolled .navbar-brand {
@@ -10644,7 +10635,7 @@ a:hover {
     color: #3DD1FF;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
-    color: #212529;
+    color: #495057;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
     color: #3DD1FF;
@@ -10653,7 +10644,7 @@ a:hover {
 
 header.masthead {
   padding-top: 10rem;
-  padding-bottom: calc(10rem - 72px);
+  padding-bottom: calc(10rem - 50px);
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(73, 80, 87, 0.8)), to(rgba(73, 80, 87, 0.8))), url("../resources/bg-masthead.jpg");
   background: linear-gradient(to bottom, rgba(73, 80, 87, 0.8) 0%, rgba(73, 80, 87, 0.8) 100%), url("../resources/bg-masthead.jpg");
   background-position: center;
@@ -10670,7 +10661,7 @@ header.masthead h1 {
   header.masthead {
     height: 100vh;
     min-height: 40rem;
-    padding-top: 72px;
+    padding-top: 50px;
     padding-bottom: 0;
   }
   header.masthead p {
