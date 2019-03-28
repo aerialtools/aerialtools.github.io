@@ -1,10 +1,13 @@
-.call-to-action {
+.contact {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/bg-masthead.jpg') no-repeat center center;
+  background: url('../resources/bg-masthead.jpg') no-repeat center center;
   @include background-cover;
   padding-top: 7rem;
   padding-bottom: 7rem;
+  .top-margin {
+    margin-top: 1rem;
+  }
   .overlay {
     position: absolute;
     background-color: $gray-900;

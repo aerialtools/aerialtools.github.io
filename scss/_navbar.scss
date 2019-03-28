@@ -1,0 +1,71 @@
+// Base styling for the navbar
+#mainNav {
+  box-shadow: $box-shadow;
+  background-color: $navbar-color;
+  // transition not working well in safari
+  // transition: background-color 0.2s ease;
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        color: $gray-600;
+        font-size: 1.1rem;
+        padding: 0.75rem 0;
+        &:hover,
+        &:active {
+          color: $primary;
+        }
+        &.active {
+          color: $primary !important;
+        }
+      }
+    }
+  }
+  @include media-breakpoint-up(lg) {
+    // Base styling for the navbar - screen sizes greater than the large breakpoint
+    box-shadow: none;
+    background-color: transparent;
+    .navbar-brand {
+      color: fade-out($navbar-color, .3);
+      &:hover {
+        color: $navbar-color;
+      }
+    }
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          color: fade-out($navbar-button-color-top, .3);
+          padding: 0 1rem;
+          &:hover {
+            color: $navbar-button-color-top;
+          }
+        }
+        &:last-child {
+          .nav-link {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+    // Navbar styling applied when the page is scrolled
+    &.navbar-scrolled {
+      box-shadow: $box-shadow;
+      background-color: $navbar-color;
+      .navbar-brand {
+        color: $gray-900;
+        &:hover {
+          color: $primary;
+        }
+      }
+      .navbar-nav {
+        .nav-item {
+          .nav-link {
+            color: $navbar-button-color-bottom;
+            &:hover {
+              color: $primary;
+            }
+          }
+        }
+      }
+    }
+  }
+}

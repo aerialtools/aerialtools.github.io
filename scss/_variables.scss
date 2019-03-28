@@ -25,7 +25,7 @@ $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
 
-$primary: $blue !default;
+$primary: #3DD1FF !default;
 $secondary: $gray-600 !default;
 $success: $green !default;
 $info: $cyan !default;
@@ -33,3 +33,10 @@ $warning: $yellow !default;
 $danger: $red !default;
 $light: $gray-100 !default;
 $dark: $gray-800 !default;
+
+$brown: $gray-700 !default;
+$navbar-height: 50px;
+$navbar-color: $white !default;
+$navbar-button-color-top: $white !default;
+$navbar-button-color-bottom: $gray-700 !default;
+$box-shadow: 0px 0px 2px 0px #888888;
