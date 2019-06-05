@@ -2,7 +2,8 @@
 #mainNav {
   box-shadow: $box-shadow;
   background-color: $navbar-color;
-  transition: background-color 0.2s ease;
+  // transition not working well in safari
+  // transition: background-color 0.2s ease;
   .navbar-nav {
     .nav-item {
       .nav-link {
