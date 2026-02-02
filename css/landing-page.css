@@ -10197,3 +10197,50 @@ header.masthead h2 {
   left: 0;
   opacity: 0.3;
 }
+
+.demo-blue {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.aerial-highlight {
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+.demo-form .form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0;
+  padding: 12px 0;
+  font-size: 16px;
+}
+
+.demo-form .form-control:focus {
+  box-shadow: none;
+  border-bottom-color: #007bff;
+}
+
+.demo-form .form-label {
+  font-weight: 500;
+  color: #333;
+}
+
+.blue-box {
+  display: inline-block;
+  padding: 14px 28px;
+  background-color: #007bff; /* Bootstrap blue */
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.blue-box:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: #ffffff;
+}
